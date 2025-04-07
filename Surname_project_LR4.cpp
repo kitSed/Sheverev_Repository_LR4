@@ -58,7 +58,26 @@ void calculation_of_discriminant()
 
 void calculating_the_roots_of_the_equation()
 {
-
+    if (d == false)
+    {
+        cout << "\nFirstly find discriminant" << endl;
+        return;
+    }
+    if (d < 0)
+    {
+        cout << "Еhe equation has roots only if the discriminant is greater or equal than 0";
+    }
+    if (d == 0)
+    {
+        x1 = -b/(2*a);
+        cout << "The root of the equation is" << x1 << endl;
+    }
+    if (d > 0)
+    {
+        x1 = (-b - sqrt(d))/(2*a);
+        x2 = (-b + sqrt(d))/(2*a);
+        cout << "The roots of the equation are " << x1 << " and " << x2 << endl;
+    }
 }
 
 struct MenuItem
