@@ -38,17 +38,17 @@ void EnterNumber (int& varLink, string label)
 
 void coofitient_a_of_the_quadratic_equation()
 {
-
+    EnterNumber(a, "Input cooficient a of a quadratic equation");
 }
 
 void coofitient_b_of_the_quadratic_equation()
 {
-
+    EnterNumber(b, "Enter b coofitient of a quadratic equation");
 }
 
 void coofitient_c_of_the_quadratic_equation()
 {
-
+    EnterNumber(c, "Enter the cooficient c of a quadratic equation");
 }
 
 void calculation_of_discriminant()
