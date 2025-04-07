@@ -53,7 +53,16 @@ void coofitient_c_of_the_quadratic_equation()
 
 void calculation_of_discriminant()
 {
-
+    if ((a == false) || (b == false) || (c == false))
+    {
+        cout << "\nFirstly enter the variables of the equation." << endl;
+        return;
+    }
+    else
+    {
+        d = b*b - 4*a*c;
+        cout << "The discriminant of the equation is " << d << endl;
+    }
 }
 
 void calculating_the_roots_of_the_equation()
