@@ -48,7 +48,7 @@ void coofitient_b_of_the_quadratic_equation()
 
 void coofitient_c_of_the_quadratic_equation()
 {
-
+    EnterNumber(c, "Enter the cooficient c of a quadratic equation");
 }
 
 void calculation_of_discriminant()
