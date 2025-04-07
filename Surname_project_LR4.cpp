@@ -43,7 +43,7 @@ void coofitient_a_of_the_quadratic_equation()
 
 void coofitient_b_of_the_quadratic_equation()
 {
-
+    EnterNumber(b, "Enter b coofitient of a quadratic equation");
 }
 
 void coofitient_c_of_the_quadratic_equation()
