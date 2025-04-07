@@ -38,7 +38,7 @@ void EnterNumber (int& varLink, string label)
 
 void coofitient_a_of_the_quadratic_equation()
 {
-
+    EnterNumber(a, "Input cooficient a of a quadratic equation");
 }
 
 void coofitient_b_of_the_quadratic_equation()
